@@ -1,0 +1,15 @@
+src/3rdparty/dicomsdl/src/build/include
+src/3rdparty/dicomsdl/src/ext/expat
+src/3rdparty/dicomsdl/src/ext/ijg
+src/3rdparty/dicomsdl/src/ext/ijg/12
+src/3rdparty/dicomsdl/src/ext/ijg/16
+src/3rdparty/dicomsdl/src/ext/ijg/8
+src/3rdparty/dicomsdl/src/ext/ijg/ljpeg-6b
+src/3rdparty/dicomsdl/src/ext/ipp
+src/3rdparty/dicomsdl/src/ext/minizip
+src/3rdparty/dicomsdl/src/ext/opj
+src/3rdparty/dicomsdl/src/ext/opj/libopenjpeg
+src/3rdparty/dicomsdl/src/ext/zlib
+src/3rdparty/dicomsdl/src/lib
+src/parsers
+tests
