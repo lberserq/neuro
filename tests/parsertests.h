@@ -1,6 +1,6 @@
 #ifndef PARSERTESTS_H
 #define PARSERTESTS_H
-#include "../nbeparser.h"
+#include "nbeparser.h"
 #include "test_framework.h"
 
 class nbeMock : public AbstractMock<std::vector<HeadCoord>, std::list<std::string> >
