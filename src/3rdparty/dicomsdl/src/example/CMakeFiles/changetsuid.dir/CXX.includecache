@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lberserq/work/neuro/src/3rdparty/dicomsdl/src/example/changetsuid.cxx
+dicom.h
+/home/lberserq/work/neuro/src/3rdparty/dicomsdl/src/example/dicom.h
+stdio.h
+-
+stdlib.h
+-
+
+src/lib/dicom.h
+dicomcfg.h
+src/lib/dicomcfg.h
+cstdlib
+-
+map
+-
+set
+-
+vector
+-
+string
+-
+list
+-
+cstdlib
+-
+cstring
+-
+cstdio
+-
+
+src/lib/dicomcfg.h
+basetsd.h
+-
+stdint.h
+-
+

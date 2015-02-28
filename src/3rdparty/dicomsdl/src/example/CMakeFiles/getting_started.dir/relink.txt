@@ -1,0 +1,1 @@
+/usr/bin/c++    -fPIC -DXML_STATIC -DHAVE_EXPAT_CONFIG_H -DOPJ_STATIC -DOPJ_STATIC -DOPJ_STATIC -DOPJ_STATIC -DOPJ_STATIC -DOPJ_STATIC    CMakeFiles/getting_started.dir/getting_started.cxx.o  -o CMakeFiles/CMakeRelink.dir/getting_started -rdynamic ../libdicomsdl.a 

@@ -58,6 +58,7 @@ public:
             std::cerr << " PASSED";
         }
         std::cerr << std::endl;
+        return res;
     }
 
 };

@@ -1,0 +1,15 @@
+/home/lberserq/ffd/dicomsdl/./build/lib/libdicomsdl.a
+/home/lberserq/ffd/dicomsdl/./build/include/dicom.h
+/home/lberserq/ffd/dicomsdl/./build/include/dicomcfg.h
+/home/lberserq/ffd/dicomsdl/./build/include/utilfunc.h
+/home/lberserq/ffd/dicomsdl/./build/bin/getting_started
+/home/lberserq/ffd/dicomsdl/./build/bin/changetsuid
+/home/lberserq/ffd/dicomsdl/./build/bin/dicomfiledump
+/home/lberserq/ffd/dicomsdl/./build/bin/makedicomdir
+/home/lberserq/ffd/dicomsdl/./build/bin/example_getvalue
+/home/lberserq/ffd/dicomsdl/./build/bin/test
+/home/lberserq/ffd/dicomsdl/./build/bin/makedicomdir.py
+/home/lberserq/ffd/dicomsdl/./build/bin/dumpdicomdir.py
+/home/lberserq/ffd/dicomsdl/./build/bin/example.py
+/home/lberserq/ffd/dicomsdl/./build/bin/test.py
+/home/lberserq/ffd/dicomsdl/./build/bin/modifyelement.py

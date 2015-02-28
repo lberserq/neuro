@@ -1,0 +1,2499 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="Project" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\ext\;CMake Files\src\ext\opj\;CMake Files\src\ext\ijg\;CMake Files\src\ext\ijg\ljpeg-6b\;CMake Files\src\ext\zlib\;CMake Files\src\ext\minizip\;CMake Files\src\ext\expat\;CMake Files\src\lib\;CMake Files\src\example\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/lberserq/ffd/dicomsdl" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/lberserq/ffd/dicomsdl" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="/home/lberserq/ffd/dicomsdl" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="/home/lberserq/ffd/dicomsdl" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="/home/lberserq/ffd/dicomsdl" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="/home/lberserq/ffd/dicomsdl" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/lberserq/ffd/dicomsdl" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="dicomsdl">
+         <Option output="/home/lberserq/ffd/dicomsdl/src/libdicomsdl.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lberserq/ffd/dicomsdl/src" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext/expat" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext/zlib" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/lib" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/Makefile&quot;  VERBOSE=1 dicomsdl" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="dicomsdl/fast">
+         <Option output="/home/lberserq/ffd/dicomsdl/src/libdicomsdl.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lberserq/ffd/dicomsdl/src" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext/expat" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext/zlib" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/lib" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/Makefile&quot;  VERBOSE=1 dicomsdl/fast" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="changetsuid">
+         <Option output="/home/lberserq/ffd/dicomsdl/src/example/changetsuid" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext/expat" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext/zlib" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/lib" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 changetsuid" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="changetsuid/fast">
+         <Option output="/home/lberserq/ffd/dicomsdl/src/example/changetsuid" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext/expat" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext/zlib" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/lib" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 changetsuid/fast" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="dicomfiledump">
+         <Option output="/home/lberserq/ffd/dicomsdl/src/example/dicomfiledump" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext/expat" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext/zlib" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/lib" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 dicomfiledump" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="dicomfiledump/fast">
+         <Option output="/home/lberserq/ffd/dicomsdl/src/example/dicomfiledump" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext/expat" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext/zlib" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/lib" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 dicomfiledump/fast" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="example_getvalue">
+         <Option output="/home/lberserq/ffd/dicomsdl/src/example/example_getvalue" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext/expat" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext/zlib" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/lib" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 example_getvalue" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="example_getvalue/fast">
+         <Option output="/home/lberserq/ffd/dicomsdl/src/example/example_getvalue" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext/expat" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext/zlib" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/lib" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 example_getvalue/fast" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="getting_started">
+         <Option output="/home/lberserq/ffd/dicomsdl/src/example/getting_started" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext/expat" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext/zlib" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/lib" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 getting_started" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="getting_started/fast">
+         <Option output="/home/lberserq/ffd/dicomsdl/src/example/getting_started" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext/expat" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext/zlib" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/lib" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 getting_started/fast" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="makedicomdir">
+         <Option output="/home/lberserq/ffd/dicomsdl/src/example/makedicomdir" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext/expat" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext/zlib" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/lib" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 makedicomdir" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="makedicomdir/fast">
+         <Option output="/home/lberserq/ffd/dicomsdl/src/example/makedicomdir" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext/expat" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext/zlib" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/lib" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 makedicomdir/fast" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test">
+         <Option output="/home/lberserq/ffd/dicomsdl/src/example/test" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext/expat" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext/zlib" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/lib" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 test" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test/fast">
+         <Option output="/home/lberserq/ffd/dicomsdl/src/example/test" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext/expat" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/ext/zlib" />
+            <Add directory="/home/lberserq/ffd/dicomsdl/src/lib" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 test/fast" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/lberserq/ffd/dicomsdl/src/example/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/example/changetsuid.cxx">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/example/dicomfiledump.cxx">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/example/example_getvalue.cxx">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/example/getting_started.cxx">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/example/makedicomdir.cxx">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/example/test.cxx">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/expat/xmlparse.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/expat/xmlrole.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/expat/xmltok.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/expat/xmltok_impl.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/expat/xmltok_ns.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jcapimin.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jcapistd.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jccoefct.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jccolor.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jcdctmgr.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jcdiffct.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jchuff.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jcinit.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jclhuff.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jclossls.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jclossy.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jcmainct.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jcmarker.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jcmaster.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jcodec.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jcomapi.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jcparam.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jcphuff.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jcpred.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jcprepct.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jcsample.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jcscale.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jcshuff.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jctrans.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jdapimin.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jdapistd.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jdatadst.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jdatasrc.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jdcoefct.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jdcolor.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jddctmgr.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jddiffct.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jdhuff.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jdinput.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jdlhuff.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jdlossls.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jdlossy.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jdmainct.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jdmarker.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jdmaster.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jdmerge.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jdphuff.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jdpostct.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jdpred.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jdsample.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jdscale.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jdshuff.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jdtrans.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jerror.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jfdctflt.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jfdctfst.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jfdctint.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jidctflt.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jidctfst.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jidctint.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jidctred.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jmemmgr.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jmemnobs.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jquant1.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jquant2.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jutils.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jcapimin.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jcapistd.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jccoefct.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jccolor.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jcdctmgr.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jcdiffct.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jchuff.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jcinit.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jclhuff.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jclossls.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jclossy.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jcmainct.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jcmarker.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jcmaster.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jcodec.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jcomapi.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jcparam.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jcphuff.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jcpred.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jcprepct.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jcsample.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jcscale.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jcshuff.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jctrans.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jdapimin.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jdapistd.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jdatadst.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jdatasrc.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jdcoefct.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jdcolor.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jddctmgr.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jddiffct.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jdhuff.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jdinput.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jdlhuff.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jdlossls.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jdlossy.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jdmainct.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jdmarker.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jdmaster.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jdmerge.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jdphuff.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jdpostct.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jdpred.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jdsample.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jdscale.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jdshuff.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jdtrans.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jerror.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jfdctflt.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jfdctfst.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jfdctint.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jidctflt.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jidctfst.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jidctint.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jidctred.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jmemmgr.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jmemnobs.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jquant1.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jquant2.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jutils.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jcapimin.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jcapistd.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jccoefct.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jccolor.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jcdctmgr.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jcdiffct.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jchuff.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jcinit.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jclhuff.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jclossls.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jclossy.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jcmainct.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jcmarker.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jcmaster.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jcodec.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jcomapi.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jcparam.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jcphuff.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jcpred.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jcprepct.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jcsample.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jcscale.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jcshuff.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jctrans.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jdapimin.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jdapistd.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jdatadst.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jdatasrc.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jdcoefct.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jdcolor.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jddctmgr.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jddiffct.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jdhuff.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jdinput.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jdlhuff.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jdlossls.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jdlossy.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jdmainct.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jdmarker.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jdmaster.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jdmerge.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jdphuff.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jdpostct.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jdpred.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jdsample.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jdscale.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jdshuff.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jdtrans.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jerror.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jfdctflt.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jfdctfst.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jfdctint.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jidctflt.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jidctfst.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jidctint.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jidctred.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jmemmgr.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jmemnobs.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jquant1.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jquant2.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jutils.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ijg_codec.cxx">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ijg_codec12.cxx">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ijg_codec16.cxx">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ijg_codec8.cxx">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/minizip/ioapi.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/minizip/unzip.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/minizip/zip.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/bio.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/cio.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/dwt.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/event.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/image.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/j2k.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/j2k_lib.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/jp2.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/jpt.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/mct.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/mqc.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/openjpeg.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/pi.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/raw.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/t1.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/t2.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/tcd.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/tgt.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/opj_codec.cxx">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/zlib/adler32.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/zlib/compress.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/zlib/crc32.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/zlib/deflate.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/zlib/gzclose.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/zlib/gzlib.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/zlib/gzread.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/zlib/gzwrite.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/zlib/infback.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/zlib/inffast.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/zlib/inflate.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/zlib/inftrees.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/zlib/trees.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/zlib/uncompr.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/zlib/zutil.c">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/lib/dataelement.cxx">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/lib/dataset.cxx">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/lib/deflate.cxx">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/lib/dicomdict.cxx">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/lib/dicomdir.cxx">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/lib/dicomfile.cxx">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/lib/dicomfile_sorter.cxx">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/lib/dicomxml.cxx">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/lib/errormsg.cxx">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/lib/fileutil.cxx">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/lib/imagecodec.cxx">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/lib/instream.cxx">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/lib/instreamobj.cxx">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/lib/memutil.cxx">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/lib/outstream.cxx">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/lib/pixelsequence.cxx">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/lib/recordoffset.cxx">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/lib/sequence.cxx">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/lib/uidutil.cxx">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/lib/zipfile.cxx">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/expat/xmlrole.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/expat/xmltok.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/expat/xmltok_impl.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jchuff.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jdhuff.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/12/jerror.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jchuff.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jdhuff.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/16/jerror.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jchuff.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jdhuff.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/8/jerror.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ijg_codec.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/minizip/ioapi.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/minizip/unzip.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/minizip/zip.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/bio.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/cio.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/dwt.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/event.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/image.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/j2k.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/j2k_lib.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/jp2.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/jpt.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/mct.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/mqc.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/openjpeg.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/pi.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/raw.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/t1.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/t2.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/tcd.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/libopenjpeg/tgt.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/opj_codec.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/zlib/crc32.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/zlib/deflate.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/zlib/gzguts.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/zlib/inffast.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/zlib/inffixed.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/zlib/inflate.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/zlib/inftrees.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/zlib/trees.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/zlib/zconf.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/zlib/zlib.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/zlib/zutil.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/lib/deflate.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/lib/dicomdir.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/lib/errormsg.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/lib/imagecodec.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/lib/instream.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/lib/instreamobj.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/lib/memutil.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/lib/outstream.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/lib/pixelsequence.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/lib/recordoffset.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/lib/sequence.h">
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\ext\opj\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/openjpeg_mangled.h">
+          <Option virtualFolder="CMake Files\src\ext\opj\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/openjpeg.h">
+          <Option virtualFolder="CMake Files\src\ext\opj\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/opj_config.h.in.user">
+          <Option virtualFolder="CMake Files\src\ext\opj\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\ext\opj\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/openjpeg_mangled.h">
+          <Option virtualFolder="CMake Files\src\ext\opj\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/openjpeg.h">
+          <Option virtualFolder="CMake Files\src\ext\opj\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/opj/opj_config.h.in.user">
+          <Option virtualFolder="CMake Files\src\ext\opj\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\ext\ijg\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/jdatasrc.c.patch">
+          <Option virtualFolder="CMake Files\src\ext\ijg\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/jdatadst.c.patch">
+          <Option virtualFolder="CMake Files\src\ext\ijg\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/jconfig.h.in">
+          <Option virtualFolder="CMake Files\src\ext\ijg\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/jmorecfg.h.in">
+          <Option virtualFolder="CMake Files\src\ext\ijg\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/jdatasrc.c.patch">
+          <Option virtualFolder="CMake Files\src\ext\ijg\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/jdatadst.c.patch">
+          <Option virtualFolder="CMake Files\src\ext\ijg\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/jconfig.h.in">
+          <Option virtualFolder="CMake Files\src\ext\ijg\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/jmorecfg.h.in">
+          <Option virtualFolder="CMake Files\src\ext\ijg\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/jdatasrc.c.patch">
+          <Option virtualFolder="CMake Files\src\ext\ijg\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/jdatadst.c.patch">
+          <Option virtualFolder="CMake Files\src\ext\ijg\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/jconfig.h.in">
+          <Option virtualFolder="CMake Files\src\ext\ijg\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/jmorecfg.h.in">
+          <Option virtualFolder="CMake Files\src\ext\ijg\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\ext\ijg\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/jdatasrc.c.patch">
+          <Option virtualFolder="CMake Files\src\ext\ijg\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/jdatadst.c.patch">
+          <Option virtualFolder="CMake Files\src\ext\ijg\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/jconfig.h.in">
+          <Option virtualFolder="CMake Files\src\ext\ijg\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/jmorecfg.h.in">
+          <Option virtualFolder="CMake Files\src\ext\ijg\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/jdatasrc.c.patch">
+          <Option virtualFolder="CMake Files\src\ext\ijg\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/jdatadst.c.patch">
+          <Option virtualFolder="CMake Files\src\ext\ijg\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/jconfig.h.in">
+          <Option virtualFolder="CMake Files\src\ext\ijg\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/jmorecfg.h.in">
+          <Option virtualFolder="CMake Files\src\ext\ijg\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/jdatasrc.c.patch">
+          <Option virtualFolder="CMake Files\src\ext\ijg\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/jdatadst.c.patch">
+          <Option virtualFolder="CMake Files\src\ext\ijg\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/jconfig.h.in">
+          <Option virtualFolder="CMake Files\src\ext\ijg\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/jmorecfg.h.in">
+          <Option virtualFolder="CMake Files\src\ext\ijg\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcapimin.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcapistd.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jccoefct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jccolor.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcdctmgr.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jchuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcinit.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcmainct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcmarker.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcmaster.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcomapi.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcparam.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcphuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcprepct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcsample.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jctrans.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdapimin.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdapistd.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdatadst.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdatasrc.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdcoefct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdcolor.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jddctmgr.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdhuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdinput.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdmainct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdmarker.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdmaster.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdmerge.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdphuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdpostct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdsample.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdtrans.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jerror.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jfdctflt.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jfdctfst.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jfdctint.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jidctflt.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jidctfst.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jidctint.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jidctred.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jquant1.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jquant2.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jutils.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jmemmgr.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcodec.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcshuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcdiffct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jclhuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jclossy.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jclossls.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdlossy.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdlossls.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdlhuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdpred.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdscale.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jddiffct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdshuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcscale.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcpred.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jmemnobs.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/cderror.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/cdjpeg.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jchuff.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdct.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdhuff.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jerror.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jinclude.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jlossls.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jlossy.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jmemsys.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jmorecfg.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jpegint.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jpeglib.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jversion.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/transupp.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcapimin.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcapistd.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jccoefct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jccolor.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcdctmgr.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jchuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcinit.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcmainct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcmarker.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcmaster.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcomapi.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcparam.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcphuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcprepct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcsample.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jctrans.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdapimin.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdapistd.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdatadst.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdatasrc.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdcoefct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdcolor.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jddctmgr.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdhuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdinput.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdmainct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdmarker.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdmaster.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdmerge.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdphuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdpostct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdsample.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdtrans.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jerror.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jfdctflt.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jfdctfst.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jfdctint.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jidctflt.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jidctfst.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jidctint.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jidctred.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jquant1.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jquant2.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jutils.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jmemmgr.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcodec.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcshuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcdiffct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jclhuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jclossy.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jclossls.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdlossy.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdlossls.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdlhuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdpred.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdscale.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jddiffct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdshuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcscale.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcpred.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jmemnobs.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/cderror.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/cdjpeg.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jchuff.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdct.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdhuff.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jerror.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jinclude.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jlossls.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jlossy.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jmemsys.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jmorecfg.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jpegint.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jpeglib.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jversion.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/transupp.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcapimin.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcapistd.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jccoefct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jccolor.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcdctmgr.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jchuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcinit.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcmainct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcmarker.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcmaster.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcomapi.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcparam.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcphuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcprepct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcsample.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jctrans.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdapimin.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdapistd.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdatadst.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdatasrc.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdcoefct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdcolor.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jddctmgr.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdhuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdinput.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdmainct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdmarker.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdmaster.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdmerge.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdphuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdpostct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdsample.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdtrans.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jerror.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jfdctflt.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jfdctfst.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jfdctint.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jidctflt.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jidctfst.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jidctint.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jidctred.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jquant1.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jquant2.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jutils.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jmemmgr.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcodec.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcshuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcdiffct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jclhuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jclossy.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jclossls.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdlossy.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdlossls.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdlhuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdpred.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdscale.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jddiffct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdshuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcscale.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcpred.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jmemnobs.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/cderror.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/cdjpeg.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jchuff.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdct.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdhuff.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jerror.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jinclude.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jlossls.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jlossy.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jmemsys.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jmorecfg.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jpegint.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jpeglib.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jversion.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/transupp.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcapimin.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcapistd.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jccoefct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jccolor.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcdctmgr.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jchuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcinit.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcmainct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcmarker.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcmaster.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcomapi.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcparam.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcphuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcprepct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcsample.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jctrans.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdapimin.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdapistd.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdatadst.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdatasrc.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdcoefct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdcolor.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jddctmgr.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdhuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdinput.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdmainct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdmarker.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdmaster.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdmerge.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdphuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdpostct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdsample.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdtrans.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jerror.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jfdctflt.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jfdctfst.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jfdctint.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jidctflt.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jidctfst.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jidctint.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jidctred.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jquant1.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jquant2.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jutils.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jmemmgr.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcodec.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcshuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcdiffct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jclhuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jclossy.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jclossls.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdlossy.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdlossls.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdlhuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdpred.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdscale.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jddiffct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdshuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcscale.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcpred.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jmemnobs.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/cderror.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/cdjpeg.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jchuff.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdct.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdhuff.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jerror.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jinclude.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jlossls.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jlossy.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jmemsys.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jmorecfg.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jpegint.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jpeglib.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jversion.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/transupp.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcapimin.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcapistd.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jccoefct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jccolor.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcdctmgr.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jchuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcinit.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcmainct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcmarker.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcmaster.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcomapi.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcparam.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcphuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcprepct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcsample.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jctrans.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdapimin.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdapistd.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdatadst.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdatasrc.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdcoefct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdcolor.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jddctmgr.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdhuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdinput.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdmainct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdmarker.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdmaster.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdmerge.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdphuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdpostct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdsample.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdtrans.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jerror.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jfdctflt.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jfdctfst.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jfdctint.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jidctflt.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jidctfst.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jidctint.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jidctred.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jquant1.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jquant2.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jutils.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jmemmgr.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcodec.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcshuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcdiffct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jclhuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jclossy.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jclossls.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdlossy.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdlossls.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdlhuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdpred.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdscale.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jddiffct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdshuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcscale.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcpred.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jmemnobs.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/cderror.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/cdjpeg.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jchuff.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdct.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdhuff.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jerror.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jinclude.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jlossls.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jlossy.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jmemsys.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jmorecfg.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jpegint.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jpeglib.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jversion.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/transupp.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcapimin.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcapistd.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jccoefct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jccolor.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcdctmgr.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jchuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcinit.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcmainct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcmarker.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcmaster.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcomapi.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcparam.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcphuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcprepct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcsample.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jctrans.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdapimin.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdapistd.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdatadst.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdatasrc.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdcoefct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdcolor.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jddctmgr.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdhuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdinput.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdmainct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdmarker.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdmaster.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdmerge.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdphuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdpostct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdsample.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdtrans.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jerror.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jfdctflt.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jfdctfst.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jfdctint.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jidctflt.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jidctfst.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jidctint.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jidctred.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jquant1.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jquant2.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jutils.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jmemmgr.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcodec.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcshuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcdiffct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jclhuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jclossy.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jclossls.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdlossy.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdlossls.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdlhuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdpred.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdscale.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jddiffct.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdshuff.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcscale.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jcpred.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jmemnobs.c">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/cderror.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/cdjpeg.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jchuff.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdct.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jdhuff.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jerror.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jinclude.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jlossls.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jlossy.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jmemsys.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jmorecfg.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jpegint.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jpeglib.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/jversion.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/ijg/ljpeg-6b/transupp.h">
+          <Option virtualFolder="CMake Files\src\ext\ijg\ljpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/zlib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\ext\zlib\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/zlib/zconf.h.cmakein">
+          <Option virtualFolder="CMake Files\src\ext\zlib\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/zlib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\ext\zlib\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/zlib/zconf.h.cmakein">
+          <Option virtualFolder="CMake Files\src\ext\zlib\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/minizip/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\ext\minizip\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/minizip/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\ext\minizip\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/expat/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\ext\expat\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/expat/expat_config.h.cmakein">
+          <Option virtualFolder="CMake Files\src\ext\expat\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/expat/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\ext\expat\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/ext/expat/expat_config.h.cmakein">
+          <Option virtualFolder="CMake Files\src\ext\expat\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/lib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\lib\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/lib/dicomcfg.h.in">
+          <Option virtualFolder="CMake Files\src\lib\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/lib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\lib\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/lib/dicomcfg.h.in">
+          <Option virtualFolder="CMake Files\src\lib\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/example/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\example\" />
+      </Unit>
+      <Unit filename="/home/lberserq/ffd/dicomsdl/src/example/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\example\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

@@ -1,5 +1,5 @@
 #include "edfparser.h"
-
+#include <cstdlib>
 
 
 EDF_file edfParser::parseEdf(std::string path)
@@ -58,16 +58,20 @@ EDF_file edfParser::parseEdf(std::string path)
 	}
 
 	edfclose_file(hdl);
+    return file;
 
 }
 
 std::vector<EDF_file> edfParser::getData()
 {
 	std::vector<EDF_file> res;
-	for (auto it = m_fnames.begin(); it != m_fnames.end(); it++)
+    for (auto it :m_fnames)
 	{
-		std::vector<EDF_file> tmpvect = parseEdf(*it);
-		res.insert(res.end(), tmpvect.begin(), tmpvect.end());
+        //std::vector<EDF_file> tmpvect = parseEdf(*it); Andrew it`s your legacy code and it`s failed to build
+        //res.insert(res.end(), tmpvect.begin(), tmpvect.end());
+        EDF_file tmp = parseEdf(it);
+        res.push_back(tmp);
+
 	}
 	return res;
 }

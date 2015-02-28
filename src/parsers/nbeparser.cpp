@@ -1,4 +1,4 @@
-#include "nbeparser.h"
+#include <nbeparser.h>
 #include <iostream>
 #include <fstream>
 enum
@@ -115,8 +115,8 @@ std::vector<HeadCoord> nbeParser::parseNbe(std::string path) {
 std::vector<HeadCoord> nbeParser::getData()
 {
     std::vector<HeadCoord> res;
-    for (auto it = m_fnames.begin(); it != m_fnames.end(); it++) {
-        std::vector<HeadCoord> tmpvect = parseNbe(*it);
+    for (auto it : m_fnames) {
+        std::vector<HeadCoord> tmpvect = parseNbe(it);
         res.insert(res.end(), tmpvect.begin(), tmpvect.end());
 
     }
