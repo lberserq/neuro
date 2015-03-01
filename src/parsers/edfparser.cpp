@@ -27,7 +27,7 @@ EDF_file edfParser::parseEdf(std::string path)
 			default                                 : printf("\nunknown error\n\n");
 				break;
 		}
-		// exit here
+		return file;
 	}
 
 	int hdl = file.header.handle;
@@ -39,7 +39,7 @@ EDF_file edfParser::parseEdf(std::string path)
 		{
 			printf("\nerror: edf_get_annotations()\n");
 			edfclose_file(hdl);
-			// exit here
+			return file;
 		}
 	}
 
@@ -52,7 +52,7 @@ EDF_file edfParser::parseEdf(std::string path)
 		{
 			printf("\nerror: edf_read_physical_samples()\n");
 			edfclose_file(hdl);
-			// exit here
+			return file;
 		}
 		file.signals[i].sample_num = file.header.signalparam[i].smp_in_datarecord;
 	}
