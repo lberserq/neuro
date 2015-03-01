@@ -7,6 +7,7 @@ extern "C" {
 #include <vector>
 #include <list>
 #include <string>
+#include <cstring>
 
 
 struct edf_signal_struct
@@ -37,8 +38,8 @@ bool operator == (const edf_hdr_struct left, const edf_hdr_struct right)
 		   (left.starttime_second == right.starttime_second) &&
 		   (left.starttime_minute == right.starttime_minute) &&
 		   (left.starttime_hour == right.starttime_hour) &&
-		   (left.patient == right.patient) &&
-		   (left.patientcode == right.patientcode);
+		   !(std::strcmp(left.patient,right.patient)) &&
+		   !(std::strcmp(left.patientcode,right.patientcode));
 }
 
 struct EDF_file
