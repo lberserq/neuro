@@ -94,7 +94,7 @@ public:
 
 class edfTest: public AbstractTest<std::vector<EDF_file>, std::list<std::string> > {
 public:
-	edfTest(const TestMode &mode, nbeMock &mock) : AbstractTest("Edf parser test", mode, mock) {}
+	edfTest(const TestMode &mode, edfMock &mock) : AbstractTest("Edf parser test", mode, mock) {}
 	bool checker(const std::vector<EDF_file> &outval) override{
 		return (outval.size() == 1);
 	}
