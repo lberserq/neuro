@@ -2,6 +2,23 @@
 #include <cstdlib>
 
 
+// edf_hdr_struct is defined in edflib, so here is friend operator only
+bool edfhdr_cmp(const edf_hdr_struct left, const edf_hdr_struct right)
+{
+    return (left.filetype == right.filetype) &&
+            (left.edfsignals == right.edfsignals) &&
+            (left.file_duration == right.file_duration) &&
+            (left.startdate_day == right.startdate_day) &&
+            (left.startdate_month == right.startdate_month) &&
+            (left.startdate_year == right.startdate_year) &&
+            (left.starttime_subsecond == right.starttime_subsecond) &&
+            (left.starttime_second == right.starttime_second) &&
+            (left.starttime_minute == right.starttime_minute) &&
+            (left.starttime_hour == right.starttime_hour) &&
+            !(std::strcmp(left.patient,right.patient)) &&
+            !(std::strcmp(left.patientcode,right.patientcode));
+}
+
 EDF_file edfParser::parseEdf(std::string path)
 {
 	EDF_file file;
