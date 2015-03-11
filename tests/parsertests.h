@@ -69,4 +69,36 @@ public:
 };
 
 
+
+class edfMock : public AbstractMock<std::vector<EDF_file>, std::list<std::string> >
+{
+	edfParser *parser;
+public:
+	edfMock(const VarVect<std::list<std::string> > &m_input) :AbstractMock(m_input), parser(NULL) {
+		std::list<std::string> res;
+		
+		res = std::get<0>(m_input);
+		parser = new edfParser(res);
+	}
+
+	std::vector<EDF_file> getOutput() override {
+		return parser->getData();
+	}
+
+	~edfMock() {
+		delete parser;
+		parser = NULL;
+	}
+};
+
+
+class edfTest: public AbstractTest<std::vector<EDF_file>, std::list<std::string> > {
+public:
+	edfTest(const TestMode &mode, edfMock &mock) : AbstractTest("Edf parser test", mode, mock) {}
+	bool checker(const std::vector<EDF_file> &outval) override{
+		return (outval.size() == 1);
+	}
+};
+
+
 #endif // PARSERTESTS_H

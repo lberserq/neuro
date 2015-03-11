@@ -11,23 +11,23 @@ EDF_file edfParser::parseEdf(std::string path)
 	{
 		switch(file.header.filetype)
 		{
-			case EDFLIB_MALLOC_ERROR                : printf("\nmalloc error\n\n");
+			case EDFLIB_MALLOC_ERROR                : fprintf(stderr,"\nmalloc error\n\n");
 				break;
-			case EDFLIB_NO_SUCH_FILE_OR_DIRECTORY   : printf("\ncan not open file, no such file or directory\n\n");
+			case EDFLIB_NO_SUCH_FILE_OR_DIRECTORY   : fprintf(stderr,"\ncan not open file, no such file or directory\n\n");
 				break;
-			case EDFLIB_FILE_CONTAINS_FORMAT_ERRORS : printf("\nthe file is not EDF(+) or BDF(+) compliant\n"
+			case EDFLIB_FILE_CONTAINS_FORMAT_ERRORS : fprintf(stderr,"\nthe file is not EDF(+) or BDF(+) compliant\n"
 															 "(it contains format errors)\n\n");
 				break;
-			case EDFLIB_MAXFILES_REACHED            : printf("\ntoo many files opened\n\n");
+			case EDFLIB_MAXFILES_REACHED            : fprintf(stderr,"\ntoo many files opened\n\n");
 				break;
-			case EDFLIB_FILE_READ_ERROR             : printf("\na read error occurred\n\n");
+			case EDFLIB_FILE_READ_ERROR             : fprintf(stderr,"\na read error occurred\n\n");
 				break;
-			case EDFLIB_FILE_ALREADY_OPENED         : printf("\nfile has already been opened\n\n");
+			case EDFLIB_FILE_ALREADY_OPENED         : fprintf(stderr,"\nfile has already been opened\n\n");
 				break;
-			default                                 : printf("\nunknown error\n\n");
+			default                                 : fprintf(stderr,"\nunknown error\n\n");
 				break;
 		}
-		// exit here
+		return file;
 	}
 
 	int hdl = file.header.handle;
@@ -37,9 +37,9 @@ EDF_file edfParser::parseEdf(std::string path)
 	{
 		if (edf_get_annotation(hdl, i, &file.annotations[i]))
 		{
-			printf("\nerror: edf_get_annotations()\n");
+			fprintf(stderr,"\nerror: edf_get_annotations()\n");
 			edfclose_file(hdl);
-			// exit here
+			return file;
 		}
 	}
 
@@ -50,9 +50,9 @@ EDF_file edfParser::parseEdf(std::string path)
 		int n = edfread_physical_samples(hdl, i, file.header.signalparam[i].smp_in_datarecord, file.signals[i].samples);
 		if (n < file.header.signalparam[i].smp_in_datarecord)
 		{
-			printf("\nerror: edf_read_physical_samples()\n");
+			fprintf(stderr,"\nerror: edf_read_physical_samples()\n");
 			edfclose_file(hdl);
-			// exit here
+			return file;
 		}
 		file.signals[i].sample_num = file.header.signalparam[i].smp_in_datarecord;
 	}
