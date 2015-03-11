@@ -22,7 +22,6 @@ struct edf_signal_struct
 		if (samples)
 			free(samples);
 	}
-    friend bool operator == (const edf_hdr_struct left, const edf_hdr_struct right);
 };
 
 // edf_hdr_struct is defined in edflib, so here is friend operator only
