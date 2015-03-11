@@ -64,7 +64,7 @@ public:
     dicomTest(const TestMode &mode, dicomMock &mock) : AbstractTest("dicom parser test", mode, mock) {}
     bool checker(const std::vector<DicomData> &outval)  override{
         //return (outval.size() == 67);
-        return (outval[0].ImageData.h == outval[0].ImageData.w && outval[0].ImageData.w == 512);
+        return (outval[0].imageData.h == outval[0].imageData.w && outval[0].imageData.w == 512);
     }
 };
 
