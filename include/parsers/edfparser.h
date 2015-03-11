@@ -12,6 +12,7 @@ extern "C" {
 
 struct edf_signal_struct
 {
+<<<<<<< HEAD
     double* samples;
     int sample_num;
 
@@ -22,6 +23,18 @@ struct edf_signal_struct
         if (samples)
             free(samples);
     }
+=======
+	double* samples;
+	int sample_num;
+
+	edf_signal_struct() : samples(NULL), sample_num(0)
+	{}
+	~edf_signal_struct()
+	{
+		if (samples)
+			free(samples);
+	}
+>>>>>>> 41fc3ecbcb5fab7371348d4c8bcd4984ea913dd3
 };
 
 
