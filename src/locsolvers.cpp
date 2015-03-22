@@ -46,17 +46,17 @@ void naiveGrahamSolver::grahamAndrew()// A.M Andrew optimization for Graham Algo
         }
     }
     m_vct.clear();
-    for (auto it = up.begin(); it < up.end(); it++) {
+    for (auto it = up.begin(); it < up.end(); ++it) {
         m_vct.push_back(*it);
     }
-    for (auto it = down.rbegin(); it < down.rend(); it++) {
+    for (auto it = down.rbegin(); it < down.rend(); ++it) {
         m_vct.push_back(*it);
     }
 }
 
 double naiveGrahamSolver::getSquare() {
     double res = 0.0f;
-    for (auto it = m_vct.begin(); it < m_vct.end(); it++) {
+    for (auto it = m_vct.begin(); it < m_vct.end(); ++it) {
         point curr = *it;
         point next = (it == m_vct.end()) ? m_vct.front() : *std::next(it);
         res += (curr.coords[0] + next.coords[1]) *(curr.coords[1] - next.coords[1]);

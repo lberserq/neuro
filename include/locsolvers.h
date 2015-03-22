@@ -20,6 +20,11 @@ typedef struct s_point {
         return a.coords[0] < b.coords[0] || (std::abs(a.coords[0] - b.coords[0]) < m_eps  && a.coords[1] < b.coords[1]);
     }
 } point;
+
+typedef struct t_point {
+
+};
+
 double point::m_eps = 1e-7;
 
 

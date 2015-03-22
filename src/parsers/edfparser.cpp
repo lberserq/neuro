@@ -3,7 +3,7 @@
 
 
 // edf_hdr_struct is defined in edflib, so here is friend operator only
-bool edfhdr_cmp(const edf_hdr_struct left, const edf_hdr_struct right)
+bool edfhdr_cmp(const edf_hdr_struct &left, const edf_hdr_struct &right)
 {
     return (left.filetype == right.filetype) &&
             (left.edfsignals == right.edfsignals) &&
@@ -60,18 +60,20 @@ EDF_file edfParser::parseEdf(std::string path)
 		}
 	}
 
-	// Read samples
+    // Read samples // refactor with new delete please
+    file.signals.resize(file.header.edfsignals);
 	for (int i = 0; i < file.header.edfsignals; i++)
 	{
-		file.signals[i].samples = (double *)malloc(sizeof(double[file.header.signalparam[i].smp_in_datarecord]));
+        //file.signals[i].samples = (double *)malloc(sizeof(double[file.header.signalparam[i].smp_in_datarecord]));
+        file.signals[i].samples = new double [file.header.signalparam[i].smp_in_datarecord];
+        file.signals[i].sample_num = file.header.signalparam[i].smp_in_datarecord;
 		int n = edfread_physical_samples(hdl, i, file.header.signalparam[i].smp_in_datarecord, file.signals[i].samples);
 		if (n < file.header.signalparam[i].smp_in_datarecord)
 		{
 			fprintf(stderr,"\nerror: edf_read_physical_samples()\n");
 			edfclose_file(hdl);
 			return file;
-		}
-		file.signals[i].sample_num = file.header.signalparam[i].smp_in_datarecord;
+        }
 	}
 
 	edfclose_file(hdl);
@@ -83,9 +85,7 @@ std::vector<EDF_file> edfParser::getData()
 {
 	std::vector<EDF_file> res;
     for (auto it :m_fnames)
-	{
-        //std::vector<EDF_file> tmpvect = parseEdf(*it); Andrew it`s your legacy code and it`s failed to build
-        //res.insert(res.end(), tmpvect.begin(), tmpvect.end());
+    {
         EDF_file tmp = parseEdf(it);
         res.push_back(tmp);
 
