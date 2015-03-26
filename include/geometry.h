@@ -13,6 +13,8 @@ struct Vector3
 {
 	double x, y, z;
 
+	Vector3(): x(0), y(0), z(0)
+	{};
 	Vector3(double a, double b, double c): x(a), y(b), z(c)
 	{};
 	Vector3(const Vector3& other): x(other.x), y(other.y), z(other.z)
@@ -30,7 +32,9 @@ struct Vector2
 {
 	double x, y;
 
-	Vector3(double a, double b, double c): x(a), y(b)
+	Vector3(): x(0), y(0)
+	{};
+	Vector3(double a, double b): x(a), y(b)
 	{};
 	Vector3(const Vector3& other): x(other.x), y(other.y)
 	{};
