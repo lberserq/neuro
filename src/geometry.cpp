@@ -142,11 +142,11 @@ std::vector<Vector2>& project_to_OXY(std::vector<Vector3>& points, const Plane& 
 }
 
 
-std::vector<Vector2>& get_points_projection(std::vector<Vector3> points)
+std::vector<Vector2>& get_points_projection(std::vector<Vector3> points,std::vector<Vector3> normals)
 {
 	Vector3 avg_vec;
 	for (int i=0; i<points.size(); i++)
-		avg_vec += points[i];
+		avg_vec += normals[i];
 	avg_vec.normalize();
 
 	Plane P(avg_vec,0);
