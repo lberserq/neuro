@@ -123,7 +123,7 @@ std::vector<Vector2>& project_to_OXY(std::vector<Vector3>& points, const Plane& 
 	std::vector<Vector2> out;
 
 	Vector3 intersect_vec(P.normal.y,-P.normal.x,0);
-	// vector of intersaection of plane P and OXY
+	// vector of intersection of plane P and OXY
 	double ang1 = std::acos(intersect_vec.x);
 	if (intersect_vec.y < 0)
 		ang += PI;
@@ -142,18 +142,36 @@ std::vector<Vector2>& project_to_OXY(std::vector<Vector3>& points, const Plane& 
 }
 
 
-std::vector<Vector2>& get_points_projection(std::vector<Vector3> points,std::vector<Vector3> normals)
+std::vector<s_point>& get_points_projection(std::vector<MPoint> points)
 {
 	Vector3 avg_vec;
 	for (int i=0; i<points.size(); i++)
-		avg_vec += normals[i];
+	{
+		Vector3 tmp_norm(points[i].norm[0],points[i].norm[1],points[i].norm[2]);
+		avg_vec += tmp_norm;
+	}
 	avg_vec.normalize();
-
 	Plane P(avg_vec,0);
+	
+	vector<Vector3> coords;
+	for (int i=0; i<points.size(); i++)
+	{
+		Vector3 tmp_coords(points[i].vec3[0],points[i].vec3[1],points[i].vec3[2]);
+		coords.push_back(tmp_coords);
+	}
 
-	std::vector<Vector3> tmp = project_to_plane(points,P);
+	std::vector<Vector3> tmp1 = project_to_plane(coords,P);
 
-	std::vector<Vector2> out = project_to_OXY(tmp,P);
+	std::vector<Vector2> tmp2 = project_to_OXY(tmp1,P);
+	
+	vector<s_point> out;
+	for (int i=0; i<tmp2.size(); i++)
+	{
+		s_point tmp_pnt;
+		tmp_pnt.coords[0] = tmp2.x;
+		tmp_pnt.coords[1] = tmp2.y;
+		out.push_back(tmp_pnt);
+	}
 
 	return out;
 }
