@@ -78,7 +78,7 @@ std::vector<Vector3> project_to_plane(std::vector<Vector3> points, const Plane& 
 std::vector<Vector3> project_to_OXY(std::vector<Vector3> points, const Plane& P);
 // This function works only if plane goes through origin: point (0,0,0) (so d == 0)
 
-std::vector<Vector2> get_points_projection(std::vector<Vector3> points);
+std::vector<s_point> get_points_projection(std::vector<MPoint>);
 // Main function
 
 #endif // GEOMETRY_H
